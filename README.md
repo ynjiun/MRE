@@ -13,13 +13,13 @@ Run under depthAI virtual environment:
 	python mre.py
 	
 The model.blob is compiled from model.onnx with following parameters:
-http://blobconverter.luxonis.com/
-OpenVINO version: 2021.4
-model source: ONNX Model
-Model file: model.onnx
-Model optimizer params: --data_type=FP16
-MyriadX compile params: -ip U8 -op FP16
-Shaves: 6
+	http://blobconverter.luxonis.com/
+	OpenVINO version: 2021.4
+	model source: ONNX Model
+	Model file: model.onnx
+	Model optimizer params: --data_type=FP16
+	MyriadX compile params: -ip U8 -op FP16
+	Shaves: 6
 
 
 

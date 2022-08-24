@@ -10,9 +10,11 @@ To duplicate the following error:
 	[184430106183EB0F00] [269.508] [system] [critical] Fatal error. Please report to developers. Log: 'Fatal error on MSS CPU: trap: 00, address: 00000000' '0'
 	
 Run under depthAI virtual environment:
+
 	python mre.py
 	
 The model.blob is compiled from model.onnx with following parameters:
+
 	http://blobconverter.luxonis.com/
 	OpenVINO version: 2021.4
 	model source: ONNX Model
